@@ -2,14 +2,14 @@
   "name": "time-stamp-tool",
   "displayName": "time-stamp-tool",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.86.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/mzhyui/time-stamp-tool.git"
-  },  
+  },
   "categories": [
     "Other"
   ],
@@ -17,19 +17,19 @@
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
-        {
-            "command": "extension.fillTodo",
-            "title": "Fill TODO"
-        }
+      {
+        "command": "extension.fillTodo",
+        "title": "Fill TODO"
+      }
     ],
     "keybindings": [
-        {
-            "command": "extension.fillTodo",
-            "key": "ctrl+alt+t",
-            "when": "editorTextFocus"
-        }
+      {
+        "command": "extension.fillTodo",
+        "key": "ctrl+alt+t",
+        "when": "editorTextFocus"
+      }
     ]
-},
+  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
