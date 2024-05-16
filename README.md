@@ -32,6 +32,6 @@ This extension contributes the following settings:
 First release of time-stamp-tool
 
 
-### 0.0.2
+### 0.1.0
 
 Use `.git` to find version No.
