@@ -3,6 +3,7 @@
   "displayName": "time-stamp-tool",
   "description": "",
   "version": "0.1.0",
+  "publisher": "mzhyui",
   "engines": {
     "vscode": "^1.86.0"
   },
