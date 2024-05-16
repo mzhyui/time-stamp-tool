@@ -3,7 +3,7 @@
 
 ## Features
 
-Add TODO comment with time stamp and git version to the current cruser position.
+Add TODO comment with time stamp and git version to the current cursor position.
 
 ## Requirements
 
@@ -21,7 +21,7 @@ This extension contributes the following settings:
 
 ## Known Issues
 
-Could not work with non-git project.
+- [fixed]If the project was not opened as an independent workspace, the git version will not be displayed.
 
 ## Release Notes
 
@@ -30,3 +30,8 @@ Could not work with non-git project.
 ### 0.0.1
 
 First release of time-stamp-tool
+
+
+### 0.0.2
+
+Use `.git` to find version No.
